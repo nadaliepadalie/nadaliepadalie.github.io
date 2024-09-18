@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nadalie Padalie
-email: nadaliepadalie@example.com
+email: green@howaboutagain.com
 description: Here now
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: nadaliepadalie 
 github_username: nadaliepadalie
 instagram_username: nadaliepadalie
 
