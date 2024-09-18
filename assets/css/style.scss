@@ -8,8 +8,11 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    background: #2879d0;
+    background: #0c529c;
     padding-left: 24px;
+    width: 250px; // Increased width
+    height: 80px; // Increased height
+    border-radius: 10px; // Added rounded corners
     &:hover {
       background: #2268b5;
     }
