@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#social-links {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+}
+
+#social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#social-links a:hover {
+  color: #9ddcff;
+}
