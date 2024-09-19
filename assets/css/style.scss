@@ -24,11 +24,16 @@ header {
     margin-bottom: 0;
   }
 
+  fa-brands, .fab {
+    color: #000000;
+    font-size: 35px;
+  }
   a.button {
     position: absolute;
     top: 0;
     right: 0;
-    background: #0c529c;
+    //background: #0c529c;
+    background: #f1de07;
     padding-left: 24px;
     width: 250px;
     height: 80px;
@@ -47,6 +52,7 @@ header {
     small {
       display: block;
       font-size: 25px;
+      color: #000000;
     }
   }
 }
