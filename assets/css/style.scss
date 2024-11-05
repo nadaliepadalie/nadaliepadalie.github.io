@@ -3,8 +3,10 @@
 
 @import "{{ site.theme }}";
 
+// #main-content img { max-width: 127%; }
+
 .book-buy {
-  width: 200px;  // Adjust this value as needed
+  width: 227px;  // Adjust this value as needed
   height: auto;
   margin-right: 20px;
   border-radius: 5px;
