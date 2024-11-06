@@ -22,18 +22,25 @@
     <header>
       <div class="inner">
         <div class="title-wrapper">
-          <img src="{{ site.baseurl }}/images/book_cover_500_400.png" alt="Book Cover" class="book-cover">
+          <!-- <img src="{{ site.baseurl }}/images/book_cover_500_400.png" alt="Book Cover" class="book-cover"> -->
+         
           <a href="{{ '/' | absolute_url }}">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           </a>
+          <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="button book-cover">
+            <small>Join the adventure!</small> <small>Instagram  <i class="fab fa-instagram"></i></small>
+          </a>
         </div>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        {% if site.instagram_username %}
+        <div class="title-wrapper">
+        <!-- {% if site.instagram_username %}
           <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="button">
             <small>Join the adventure!</small> <small>Insta  <i class="fab fa-instagram"></i></small>
           </a>
-        {% endif %}
+        {% endif %} -->
+      </div>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+        
       </div>
     </header>
 
@@ -44,7 +51,7 @@
         </section>
 
         <aside id="sidebar">
-          <div class="forsale">
+          <!-- <div class="forsale">
             <img src="{{ site.baseurl }}/images/book_cover_500_400.png" alt="Book Cover" class="book-buy"/>
             <style>.pp-DVRA3EX28MMAN{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
             <form  action="https://www.paypal.com/ncp/payment/DVRA3EX28MMAN" method="post" target="_top" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
@@ -53,7 +60,15 @@
               <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
               <section> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
             </form>
-            </div>
+            </div> -->
+
+            <div class="letter-to-np">
+              Hello Nadalie Padalie, <br/>
+              
+              You are continuing your journey and your adventures <strike>will soon be</strike> are being published.
+              
+              100 years apart, but the saga continues in 2024.
+              </div>
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>

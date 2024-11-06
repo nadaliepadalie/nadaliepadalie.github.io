@@ -3,17 +3,30 @@
 
 @import "{{ site.theme }}";
 
-// #main-content img { max-width: 127%; }
+#main-content img { max-width: 50%; }
+#main-content { font-family: 'Courier New', Courier, monospace; font-size: 18px; } 
+header a.button { position: relative ; top: 70px; right: 120px; background: #f1de07; }
+header a.button:hover { background: #e18ade; }
+aside#sidebar { font-size: 20px; font-family: 'Courier New', Courier, monospace;}
 
+// .top-section img {position: relative; float: left;}
+// side bar
 .book-buy {
   width: 227px;  // Adjust this value as needed
   height: auto;
   margin-right: 20px;
   border-radius: 5px;
 }
+.caption {
+  font-weight: bold;
+  font-size: 18px;
+}
 .forsale {
   width: 200px; 
 }
+// main content
+#main-content .book-buy { max-width: 127%; }
+#main-content form {  border-radius: 10px; }
 header {
   .inner {
     position: relative;
@@ -51,7 +64,7 @@ header {
     height: 80px;
     border-radius: 10px;
     &:hover {
-      background: #2268b5;
+      background: #e18ade;
     }
     &::before {
       font-family: 'Font Awesome 5 Brands';
@@ -67,7 +80,10 @@ header {
       color: #000000;
     }
   }
+   a.button { position: relative ;  background: #f1de07;}
+   //a.button { position: absolute ; top: 70px; right: 100px; background: #f1de07; }
 }
+
 
 #social-links {
   display: none;
