@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 
-#main-content img { max-width: 50%; }
-#main-content { font-family: 'Courier New', Courier, monospace; font-size: 18px; } 
-header a.button { position: relative ; top: 70px; right: 120px; background: #f1de07; }
+//#main-content img { max-width: 127%; }
+#main-content { width: 1000px; }
+header a.button { position: relative ; top: 0; }
 header a.button:hover { background: #e18ade; }
-aside#sidebar { font-size: 20px; font-family: 'Courier New', Courier, monospace;}
+.inner { width: 1000px; }
 
-// .top-section img {position: relative; float: left;}
+aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;}
 // side bar
 .book-buy {
   width: 227px;  // Adjust this value as needed
@@ -17,16 +17,47 @@ aside#sidebar { font-size: 20px; font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
   border-radius: 5px;
 }
-.caption {
-  font-weight: bold;
-  font-size: 18px;
-}
 .forsale {
   width: 200px; 
 }
 // main content
 #main-content .book-buy { max-width: 127%; }
 #main-content form {  border-radius: 10px; }
+
+.book-buy {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+
+.caption {
+  font-weight: bold;
+  font-size: 14.5px;
+}
+#nad-stairs {
+  width: 150px;
+}
+
+
+.top-section { // flex container row based
+  display: flex;
+  align-items: start;
+  gap: 30px; // space between the two columns
+}
+
+.forsale {
+  width: 223px;
+  flex-shrink: 0;
+}
+.summary {
+  flex: 1;
+  min-width: 0;
+  font-size: 14.5px; font-family: 'Courier New', Courier, monospace;
+}
+
 header {
   .inner {
     position: relative;
@@ -80,10 +111,7 @@ header {
       color: #000000;
     }
   }
-   a.button { position: relative ;  background: #f1de07;}
-   //a.button { position: absolute ; top: 70px; right: 100px; background: #f1de07; }
 }
-
 
 #social-links {
   display: none;
