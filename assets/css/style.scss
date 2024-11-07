@@ -2,6 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
+
+//#main-content img { max-width: 127%; }
+#main-content { width: 710px; }
+header a.button { position: relative ; top: 0; }
+header a.button:hover { background: #e18ade; }
+.inner { width: 1000px; }
+
+aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;}
+
 // nad pad story bottom
 .bottom-container {
   display: flex;
@@ -27,13 +36,7 @@
   height: 150px;
   border-radius: 10px;
 }
-//#main-content img { max-width: 127%; }
-#main-content { width: 690px; }
-header a.button { position: relative ; top: 0; }
-header a.button:hover { background: #e18ade; }
-.inner { width: 1000px; }
 
-aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;}
 // side bar
 .book-buy {
   width: 227px;  // Adjust this value as needed
@@ -62,7 +65,7 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
   font-size: 14.5px;
 }
 #nad-stairs {
-  width: 150px;
+  width: 170px;
 }
 
 
