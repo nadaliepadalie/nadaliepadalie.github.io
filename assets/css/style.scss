@@ -2,9 +2,33 @@
 ---
 
 @import "{{ site.theme }}";
+// nad pad story bottom
+.bottom-container {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.nads-baby-photo {
+  //width: 150px;
+  flex-shrink: 0;
+}
 
+.nad-pad-story {
+  flex: 1;
+  min-width: 0;
+}
+.gran-photo {
+  //width: 150px;
+  flex-shrink: 0;
+}
+
+.np-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
 //#main-content img { max-width: 127%; }
-#main-content { width: 1000px; }
+#main-content { width: 690px; }
 header a.button { position: relative ; top: 0; }
 header a.button:hover { background: #e18ade; }
 .inner { width: 1000px; }

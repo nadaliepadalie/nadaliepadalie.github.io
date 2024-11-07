@@ -19,10 +19,9 @@
 
 </div>
 
+<br/>
 
 
-
-{{ include buy-one-two-ten-button.html }}
 <!-- <br/><br/><br/> -->
 <!-- <div class="letter-to-np">
 Hello Nadalie Padalie,
@@ -32,11 +31,24 @@ You are continuing your journey and your adventures <strike>will soon be</strike
 100 years apart, but the saga continues in 2024.
 </div> -->
 --- 
-
-Nadalie Padalie is a combination of Nadia (2021) and her great grandmother of Natalie(1924-2019).
+<br/>
+<div class="bottom-container">
+<div class="gran-photo">
+ <img src="{{ site.baseurl }}/images/gran_interview_smile.jpg" alt="Gran Smile" class="np-photo"/>
+</div>
+<div class="nad-pad-story">
+Nadalie Padalie is a combination of Nadia (2021) and her great grandmother of Natalie (1924-2019).
 Born almost 100 years apart, they carry the spirit of curiosity, community, and love across time.
+<br/><br/>
+"...and have fun dammit! If you don't have fun, what is the point?!"
+<br/><br/>
+ -NPK famous last words 2019
+</div>
 
-"...and have fun dammit. If you don't have fun, what is the point" -NPK famous last words 2019
+<div class="nads-baby-photo">
+<img src="{{ site.baseurl }}/images/20210330_brookey-2.jpg" alt="Natalie Padalie" class="np-photo"/>
+</div>
+</div>
 
 
-![Nadlie Padalie]({{ site.baseurl }}/images/dress_cat_hat_swing_20230522_200347.jpg)
+<!-- ![Nadlie Padalie]({{ site.baseurl }}/images/dress_cat_hat_swing_20230522_200347.jpg) -->
