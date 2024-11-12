@@ -3,39 +3,17 @@
 
 @import "{{ site.theme }}";
 
+// @media only screen and (max-width: 1767px) { .inner { width: 100%; }
+
 //#main-content img { max-width: 127%; }
 #main-content { width: 710px; }
-header a.button { position: relative ; top: 0; }
+//header a.button { position: relative ; top: 0; }
+//.insta-button { position: relative ; top: 0; }
 header a.button:hover { background: #e18ade; }
-.inner { width: 1000px; }
+// .inner { width: 1000px; }
+//header {width: 100%;}
 
 aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;}
-
-// nad pad story bottom
-.bottom-container {
-  display: flex;
-  align-items: start;
-  gap: 30px;
-}
-.nads-baby-photo {
-  //width: 150px;
-  flex-shrink: 0;
-}
-
-.nad-pad-story {
-  flex: 1;
-  min-width: 0;
-}
-.gran-photo {
-  //width: 150px;
-  flex-shrink: 0;
-}
-
-.np-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-}
 
 // side bar
 .book-buy {
@@ -47,6 +25,58 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 .forsale {
   width: 200px; 
 }
+
+.top-section { // flex container row based
+  display: flex;
+  align-items: start;
+  gap: 30px; // space between the two columns
+}
+
+.forsale {
+  width: 223px;
+  flex-shrink: 0;
+}
+
+.summary {
+  flex: 1;
+  min-width: 221;
+  font-size: 14.5px; font-family: 'Courier New', Courier, monospace;
+}
+
+.top-section-right {
+  float: right;
+  flex-shrink: 0;
+}
+
+
+// nad pad story bottom
+.bottom-container {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.gran-photo-container {
+  //width: 150px;
+  flex-shrink: 0;
+}
+
+.nad-pad-story {
+  flex: 1;
+  min-width: 112px;
+}
+
+.nads-baby-photo-container {
+  //width: 150px;
+  flex-shrink: 0;
+}
+.np-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+
 // main content
 #main-content .book-buy { max-width: 127%; }
 #main-content form {  border-radius: 10px; }
@@ -66,24 +96,12 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 }
 #nad-stairs {
   width: 170px;
+  height: 332px;
+  border-radius: 10px;
 }
 
 
-.top-section { // flex container row based
-  display: flex;
-  align-items: start;
-  gap: 30px; // space between the two columns
-}
 
-.forsale {
-  width: 223px;
-  flex-shrink: 0;
-}
-.summary {
-  flex: 1;
-  min-width: 0;
-  font-size: 14.5px; font-family: 'Courier New', Courier, monospace;
-}
 
 header {
   .inner {
@@ -111,34 +129,52 @@ header {
     color: #000000;
     font-size: 35px;
   }
-  a.button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    //background: #0c529c;
-    background: #f1de07;
-    padding-left: 24px;
-    width: 250px;
-    height: 80px;
-    border-radius: 10px;
-    &:hover {
-      background: #e18ade;
-    }
-    &::before {
-      font-family: 'Font Awesome 5 Brands';
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 35px;
-    }
-    small {
-      display: block;
-      font-size: 25px;
-      color: #000000;
-    }
-  }
+
 }
+.image-insta {
+  width: 100px;
+  height: 50px;
+  position: relative ;
+//  right: -108px;
+  right: -84px;
+  bottom: 45px;
+}
+
+.insta-button {
+  // position: absolute;
+   top: 0;
+   right: 0;
+   //background: #0c529c;
+   background: #f1de07;
+   padding-left: 24px;
+   padding-right: 24px;
+   padding-top: 20px;
+   // good on mac width: 162px;
+   width: 204px;
+   height: 80px;
+   border-radius: 10px;
+   &:hover {
+     background: #e18ade;
+   }
+   &::before {
+     font-family: 'Font Awesome 5 Brands';
+     position: absolute;
+     left: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+     font-size: 35px;
+   }
+   small {
+     display: block;
+     font-size: 25px;
+     color: #000000;
+   }
+   smaller {
+    display: block;
+    font-size: 15px;
+    color: #000000;
+   }
+ }
 
 #social-links {
   display: none;

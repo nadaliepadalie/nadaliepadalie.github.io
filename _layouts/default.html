@@ -27,9 +27,15 @@
           <a href="{{ '/' | absolute_url }}">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           </a>
-          <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="button book-cover">
-            <small>Join the adventure!</small> <small>Instagram  <i class="fab fa-instagram"></i></small>
+          <!-- <div class="join-insta insta-button"> -->
+          
+             
+            <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="insta-button">  
+              <smaller>Join the adventure!</smaller>
+              <small>Instagram</small> <img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img> 
+            <!-- <small>Join the adventure!</small> <small>Instagram <div class="image-container"><img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img></div> <i class="fab fa-instagram"></i></small> -->
           </a>
+          <!-- </div> -->
         </div>
         <div class="title-wrapper">
         <!-- {% if site.instagram_username %}

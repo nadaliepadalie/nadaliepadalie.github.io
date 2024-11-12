@@ -15,8 +15,9 @@
 <div class="summary">Welcome! Thank you for making it here! <br/><br/>"One, Two, Ten...I Made a Friend!" Is is a children's counting (board) book based on an event that happened to a 2 year old Nadia at the Brooklyn Museum. She
 loved to hear me retell the tale, and so, I turned it into a children's counting book that includes numbers in Chinese, Arabic, and Roman numerals. I hope you enjoy it!
 </div>
+<div class="top-section-right">
 <img src="{{ site.baseurl }}/images/dress_cat_hat_swing_20230522_200347.jpg" id="nad-stairs"/> 
-
+</div>
 
 </div>
 
@@ -34,7 +35,7 @@ You are continuing your journey and your adventures <strike>will soon be</strike
 --- 
 <br/>
 <div class="bottom-container">
-<div class="gran-photo">
+<div class="gran-photo-container">
  <img src="{{ site.baseurl }}/images/gran_interview_smile.jpg" alt="Gran Smile" class="np-photo"/>
 </div>
 <div class="nad-pad-story">
@@ -46,7 +47,7 @@ Born almost 100 years apart, they carry the spirit of curiosity, community, and 
  -NPK famous last words 2019
 </div>
 
-<div class="nads-baby-photo">
+<div class="nads-baby-photo-container">
 <img src="{{ site.baseurl }}/images/20210330_brookey-2.jpg" alt="Natalie Padalie" class="np-photo"/>
 </div>
 </div>
