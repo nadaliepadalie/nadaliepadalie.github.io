@@ -10,7 +10,8 @@
 //header a.button { position: relative ; top: 0; }
 //.insta-button { position: relative ; top: 0; }
 header a.button:hover { background: #e18ade; }
-// .inner { width: 1000px; }
+// margins around the main content
+//.inner { width: 1000px; }
 //header {width: 100%;}
 
 aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;}
@@ -22,9 +23,6 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
   margin-right: 20px;
   border-radius: 5px;
 }
-.forsale {
-  width: 200px; 
-}
 
 .top-section { // flex container row based
   display: flex;
@@ -33,15 +31,16 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 }
 
 .forsale {
-  width: 223px;
+  width: 240px;
   flex-shrink: 0;
 }
 
 .summary {
   flex: 1;
   min-width: 221;
-  font-size: 14.5px; 
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 14.5px;   
+  padding-right: 50px;
+  padding-left: 20px;
 }
 .font-bold {
   font-weight: 700;
@@ -54,11 +53,30 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
   font-size: .875rem;
   line-height: 1.25rem;
 }
+.text-medium {
+  font-size: 14.5px;
+  line-height: 1.25rem;
+}
+.text-large {
+  // font-size: 14.5px;
+   font-size: 27px !important;
+   line-height: 1.25rem;
+ }
+ .font-arial {
+  //font-family: "Amazon Ember", Arial, sans-serif;
+  font-family: Arial, sans-serif;
+ }
+ .font-courier {
+  font-family: 'Courier New', Courier, monospace;
+ }  
 .top-section-right {
   float: right;
   flex-shrink: 0;
 }
-
+.letter-to-np {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
 // nad pad story bottom
 .bottom-container {
@@ -146,8 +164,12 @@ header {
   height: 50px;
   position: relative ;
 //  right: -108px;
-  right: -84px;
-  bottom: 45px;
+  // right: -84px;
+  // bottom: 45px;
+  // fixing for cell
+  right: -57px;
+  bottom: 90px;
+
 }
 
 .insta-button {
