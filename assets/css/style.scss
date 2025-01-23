@@ -24,7 +24,8 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
   border-radius: 5px;
 }
 
-.top-section { // flex container row based
+// Desktop styles (default)
+.top-section {
   display: flex;
   align-items: start;
   gap: 30px; // space between the two columns
@@ -159,16 +160,16 @@ header {
   }
 
 }
+// desktop
 .image-insta {
   width: 100px;
   height: 50px;
   position: relative ;
 //  right: -108px;
-  // right: -84px;
-  // bottom: 45px;
+  right: -84px;
+  bottom: 45px;
   // fixing for cell
-  right: -57px;
-  bottom: 90px;
+
 
 }
 
@@ -210,4 +211,27 @@ header {
 
 #social-links {
   display: none;
+}
+
+// Mobile styles
+@media screen and (max-width: 767px) {
+  .top-section, .bottom-container {
+    display: block;  // Stack vertically on mobile
+  }
+
+  .forsale, .summary, .gran-photo-container, .nad-pad-story, .nads-baby-photo-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .summary {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .image-insta {
+    right: -57px;
+    bottom: 90px;
+  
+  }
 }
