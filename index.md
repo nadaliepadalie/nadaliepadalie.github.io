@@ -1,7 +1,7 @@
 <div class="top-section">
 <div class="forsale">
 <img src="{{ site.baseurl }}/images/book_cover_500_400.png" alt="Book Cover" class="book-buy"/>
-<div class="book-buy caption">One, Two, Ten...I Made a Friend! <br/> By Libby & Nadia Kent </div>
+<div class="book-buy caption font-serif "><span class="font-bold">One, Two, Ten...I Made a Friend!  </span> <br/> <span class="text-small">By Libby & Nadia Kent</span></div>
 <!-- <div class="author"> By Libby and Nadia Kent</div> -->
 <style>.pp-DVRA3EX28MMAN{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
 <form  action="https://www.paypal.com/ncp/payment/DVRA3EX28MMAN" method="post" target="_top" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
@@ -12,12 +12,12 @@
   <section> Powered by  <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
 </form>
 </div>
-<div class="summary">Welcome! Thank you for making it here! <br/><br/>"One, Two, Ten...I Made a Friend!" Is is a children's counting (board) book based on an event that happened to a 2 year old Nadia at the Brooklyn Museum. She
+<div class="summary font-serif"> <br/><br/><bold>"One, Two, Ten...I Made a Friend!"</bold><br/> Is a children's counting (board) book based on an event that happened to a 2 year old Nadia at the Brooklyn Museum. She
 loved to hear me retell the tale, and so, I turned it into a children's counting book that includes numbers in Chinese, Arabic, and Roman numerals. I hope you enjoy it!
 </div>
-<div class="top-section-right">
+<!-- <div class="top-section-right">
 <img src="{{ site.baseurl }}/images/dress_cat_hat_swing_20230522_200347.jpg" id="nad-stairs"/> 
-</div>
+</div> -->
 
 </div>
 

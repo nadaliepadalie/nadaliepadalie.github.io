@@ -40,9 +40,20 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 .summary {
   flex: 1;
   min-width: 221;
-  font-size: 14.5px; font-family: 'Courier New', Courier, monospace;
+  font-size: 14.5px; 
+  font-family: 'Courier New', Courier, monospace;
 }
-
+.font-bold {
+  font-weight: 700;
+}
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+}
+.text-small {
+ // font-size: 14.5px;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
 .top-section-right {
   float: right;
   flex-shrink: 0;
@@ -91,7 +102,6 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 
 
 .caption {
-  font-weight: bold;
   font-size: 14.5px;
 }
 #nad-stairs {
