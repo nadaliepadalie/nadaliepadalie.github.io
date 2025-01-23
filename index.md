@@ -15,14 +15,14 @@
 <div class="summary font-arial"> <br/><br/><span class="font-bold text-large" >One, Two, Ten...I Made a Friend!</span>
 <br/>Board book (they can chew it!) 
 <div class="description text-medium ">
- <br/>
-Count and climb the Brooklyn Museum steps with Nadalie, as she sets off towards a little girl sitting at the top. 
-<br/>Will Nadalie reach her and make a new friend?
-<br/>
+<div class="paragraph-break"></div><br/>
+Count and climb the Brooklyn Museum steps with Nadalie, as she sets off towards a little girl sitting at the top. As she climbs the numbers appear on the steps in Chinese, Arabic, and Roman numerals, and the fountain magically creates the number for her. 
+<div class="paragraph-break"></div>
+Will Nadalie reach her and make a new friend?
+<div class="paragraph-break"></div>
 A fun counting book for all the little climbers out there!
-<br/>
-based 
-loved to hear me retell the tale, and so, I turned it into a children's counting book that includes numbers in Chinese, Arabic, and Roman numerals. <br/>I hope you love it as much as I loved creating it for you!
+<div class="paragraph-break"></div>
+I hope you love it as much as I loved creating it for you!
 </div></div>
 <!-- <div class="top-section-right">
 <img src="{{ site.baseurl }}/images/dress_cat_hat_swing_20230522_200347.jpg" id="nad-stairs"/> 
