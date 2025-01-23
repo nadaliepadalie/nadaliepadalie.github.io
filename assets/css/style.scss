@@ -133,9 +133,13 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 }
 
 
-
+header {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 
 header {
+  
   .inner {
     position: relative;
   }
@@ -155,6 +159,7 @@ header {
 
   h1 {
     margin-bottom: 0;
+    font-size:50px;
   }
 
   fa-brands, .fab {
@@ -168,9 +173,10 @@ header {
   width: 100px;
   height: 50px;
   position: relative ;
-//  right: -108px;
-  right: -84px;
-  bottom: 45px;
+  left: 89px;
+  bottom: 30px;
+  // right: -84px;
+  // bottom: 45px;
   // fixing for cell
 
 
@@ -186,7 +192,7 @@ header {
    padding-right: 24px;
    padding-top: 20px;
    // good on mac width: 162px;
-   width: 204px;
+   width: 150px;
    height: 80px;
    border-radius: 10px;
    &:hover {
@@ -233,8 +239,8 @@ header {
   }
 
   .image-insta {
-    right: -57px;
-    bottom: 90px;
-  
+    left: 55px;
+    // bottom: 90px;
+     bottom: 75px;
   }
 }

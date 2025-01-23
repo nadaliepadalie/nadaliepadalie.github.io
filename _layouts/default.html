@@ -27,17 +27,25 @@
           <a href="{{ '/' | absolute_url }}">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           </a>
-          <!-- <div class="join-insta insta-button"> -->
+          <div class="join-insta insta-button">
           
              
-            <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="insta-button">  
+            <!-- <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="insta-button">  
               <smaller>Join the adventure!</smaller>
               <small>Instagram</small> <img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img> 
-            <!-- <small>Join the adventure!</small> <small>Instagram <div class="image-container"><img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img></div> <i class="fab fa-instagram"></i></small> -->
+          </a> -->
+              <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" /> <!-- class="insta-button">  -->
+
+              <smaller>Join the adventure!</smaller>
+              <smaller class="font-arial">@nadaliepadalie</smaller>
+              <!-- <small>Instagram</small>  -->
+              <img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img> 
           </a>
+</div>
+            <!-- <small>Join the adventure!</small> <small>Instagram <div class="image-container"><img src="{{ site.baseurl }}/images/instagram_logo_cropped.png" class="image-insta" ></img></div> <i class="fab fa-instagram"></i></small> -->
           <!-- </div> -->
         </div>
-        <div class="title-wrapper">
+        <div class="">
         <!-- {% if site.instagram_username %}
           <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer" class="button">
             <small>Join the adventure!</small> <small>Insta  <i class="fab fa-instagram"></i></small>
