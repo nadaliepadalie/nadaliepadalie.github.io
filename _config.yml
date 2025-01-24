@@ -20,7 +20,8 @@
 
 title: Nadalie Padalie
 email: green@howaboutagain.com
-description: Welcome! Thank you for making it here!
+#description: Welcome! Thank you for making it here!
+description: Books
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nadaliepadalie 

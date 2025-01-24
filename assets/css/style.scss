@@ -34,14 +34,33 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 .forsale {
   width: 240px;
   flex-shrink: 0;
+  border: 1px solid #969b98;
+  border-radius: 10px;
+}
+
+.forsale .title {
+  font-size: 17.5px;
+  position: relative;
+  padding-left: 49px;
+}
+.forsale .authors {
+margin-top: 6px;
+padding-left: 45px;
+}
+.buy-now {
+  margin-top: 10px;
+  margin-left: 7px;
 }
 
 .summary {
   flex: 1;
   min-width: 221;
   font-size: 14.5px;   
+  // padding-right: 50px;
+  padding-left: 10px;
+}
+.description {
   padding-right: 50px;
-  padding-left: 20px;
 }
 .paragraph-break {
   padding-bottom: 10px;
@@ -53,8 +72,8 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
   font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
 }
 .text-small {
- // font-size: 14.5px;
-  font-size: .875rem;
+  font-size: 14px;
+  //font-size: .875rem;
   line-height: 1.25rem;
 }
 .text-medium {
@@ -112,7 +131,7 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 
 // main content
 #main-content .book-buy { max-width: 127%; }
-#main-content form {  border-radius: 10px; }
+#main-content form {  border-radius: 10px; margin-bottom: 5px; }
 
 .book-buy {
   width: 100%;
@@ -136,6 +155,8 @@ aside#sidebar { font-size: 15px; font-family: 'Courier New', Courier, monospace;
 header {
   padding-top: 30px;
   padding-bottom: 10px;
+  background: #3d814a;
+  margin-top:15px;
 }
 
 header {
@@ -161,7 +182,9 @@ header {
     margin-bottom: 0;
     font-size:50px;
   }
-
+   h2 {
+    color: #b8b743;
+   }
   fa-brands, .fab {
     color: #000000;
     font-size: 35px;
@@ -232,7 +255,17 @@ header {
     width: 100%;
     margin-bottom: 20px;
   }
-
+.forsale .title {
+  padding-left: 60px;
+  font-size: 28.5px;
+}
+.forsale .authors {
+    padding-left: 88px;
+}
+.buy-now {
+  margin-top: 10px;
+  margin-left: 50px;
+}
   .summary {
     padding-left: 0;
     padding-right: 0;
