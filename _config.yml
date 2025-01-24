@@ -34,6 +34,7 @@ remote_theme: pages-themes/architect@v0.2.0
 plugins:
  # - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +55,25 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+twitter:
+  username: nadaliepadalie
+  card: summary_large_image
+
+# Add these settings for default site image
+logo: /images/book_cover_500_400.png  # This is for the site's logo
+social:
+  name: Nadalie Padalie
+  links:
+    - https://www.instagram.com/nadaliepadalie
+    - https://twitter.com/nadaliepadalie
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/book_cover_500_400.png  # This is the default sharing image
+      
+# Optional: Add specific OpenGraph settings
+social_image: /images/book_cover_500_400.png  # Another way to specify the image
+og_image: /images/book_cover_500_400.png      # Specific to OpenGraph
