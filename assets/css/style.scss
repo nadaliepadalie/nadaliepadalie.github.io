@@ -156,7 +156,7 @@ header {
   padding-top: 30px;
   padding-bottom: 10px;
   background: #3d814a;
-  margin-top:15px;
+  //margin-top:15px;
 }
 
 header {
@@ -181,6 +181,8 @@ header {
   h1 {
     margin-bottom: 0;
     font-size:50px;
+    padding-right: 20px;
+
   }
    h2 {
     color: #b8b743;
@@ -240,7 +242,26 @@ header {
     color: #000000;
    }
  }
-
+ .follow-twitter {
+  position: relative;
+  //left: 89px; /* Match left position of .image-insta */
+  //bottom: 20px; /* Reduced from 30px to position it under .image-insta */
+  left: -180px;
+  bottom: -76px;
+  // background: #f3f2ed;
+  // padding-left: 10px;
+  // padding-right: 10px;
+  border-radius: 10px;
+  clear: both; /* Ensures it flows below .image-insta */
+}
+.image-twitter {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  position: relative ;
+  left: 127px;
+  bottom: -3px;
+}
 #social-links {
   display: none;
 }
@@ -275,5 +296,11 @@ header {
     left: 55px;
     // bottom: 90px;
      bottom: 75px;
+  }
+  .follow-twitter {
+    left: -140px;
+  }
+  .image-twitter {
+    left: 93px;
   }
 }
